@@ -1,0 +1,6 @@
+if SHIELD_GMA_42
+
+config ZMK_KEYBOARD_NAME
+	default "gma_42"
+
+endif

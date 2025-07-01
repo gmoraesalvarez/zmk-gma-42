@@ -1,0 +1,2 @@
+config SHIELD_GMA_42
+	def_bool $(shield_list_contains,gma_42)
