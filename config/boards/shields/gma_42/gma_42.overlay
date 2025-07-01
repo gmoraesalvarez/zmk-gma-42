@@ -61,6 +61,7 @@
             , <&key_physical_attrs 100 100  990    0       0     0     0>
             , <&key_physical_attrs 100 100  1090   0       0     0     0>
             , <&key_physical_attrs 100 100  1190   0       0     0     0>
+
             , <&key_physical_attrs 100 100    0  100       0     0     0>
             , <&key_physical_attrs 100 100  100  100       0     0     0>
             , <&key_physical_attrs 100 100  200  100       0     0     0>
@@ -73,13 +74,26 @@
             , <&key_physical_attrs 100 100  990  100       0     0     0>
             , <&key_physical_attrs 100 100  1090 100       0     0     0>
             , <&key_physical_attrs 100 100  1190 100       0     0     0>
-            
+
+            , <&key_physical_attrs 100 100    0  200       0     0     0>
+            , <&key_physical_attrs 100 100  100  200       0     0     0>
+            , <&key_physical_attrs 100 100  200  200       0     0     0>
             , <&key_physical_attrs 100 100  300  200       0     0     0>
             , <&key_physical_attrs 100 100  400  200       0     0     0>
             , <&key_physical_attrs 100 100  500  200       0     0     0>
             , <&key_physical_attrs 100 100  690  200       0     0     0>
             , <&key_physical_attrs 100 100  790  200       0     0     0>
             , <&key_physical_attrs 100 100  890  200       0     0     0>
+            , <&key_physical_attrs 100 100  990  200       0     0     0>
+            , <&key_physical_attrs 100 100  1090 200       0     0     0>
+            , <&key_physical_attrs 100 100  1190 200       0     0     0>
+            
+            , <&key_physical_attrs 100 100  300  300       0     0     0>
+            , <&key_physical_attrs 100 100  400  300       0     0     0>
+            , <&key_physical_attrs 100 100  500  300       0     0     0>
+            , <&key_physical_attrs 100 100  690  300       0     0     0>
+            , <&key_physical_attrs 100 100  790  300       0     0     0>
+            , <&key_physical_attrs 100 100  890  300       0     0     0>
             
             ;
     };
