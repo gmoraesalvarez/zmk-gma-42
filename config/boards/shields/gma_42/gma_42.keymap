@@ -33,7 +33,7 @@
                 COMBO(dw, &kp LEFT, 18 19)
                 COMBO(lf, &kp RIGHT, 20 21)
                 COMBO(rt, &kp DOWN, 19 20)
-                COMBO(number, &tg 1, 40 41)
+                COMBO(number, &tog 1, 40 41)
      
         };
 
