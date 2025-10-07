@@ -18,7 +18,8 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOMEROW_MODS";
                         #binding-cells = <2>;
-                        tapping_term_ms = <150>;
+                        tapping_term_ms = <166>;
+                        quick-tap-ms = <150>;
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
@@ -33,7 +34,7 @@
                 COMBO(dw, &kp LEFT, 18 19)
                 COMBO(lf, &kp RIGHT, 20 21)
                 COMBO(rt, &kp DOWN, 19 20)
-                COMBO(number, &tog 1, 39 41)
+                COMBO(number, &tog 1, 38 39)
      
         };
 
