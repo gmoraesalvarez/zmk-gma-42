@@ -45,10 +45,10 @@ ENE#include <behaviors.dtsi>
             display-name = "Default";
 
             bindings = <
-                &hm TAB Q     &kp W    &kp E       &kp R &kp T                  &kp Y &kp U    &kp I     &kp O    &kp P
-                &hm LSHIFT A  &kp S    &kp D       &kp F &kp G                  &kp H &kp J    &kp K     &kp L    &hm APOS SEMI
-                &hm LALT Z  &hm RA(N6) X &hm RA(COMMA) C  &kp V &kp B           &kp N &kp M    &hm RA(GRAVE) &kp DOT  &kp ENTER
-                &sl 1    &sl 2    &hm LCTRL ESC  &hm LGUI MINUS &kp SPACE   &kp BSPC &sk RALT &hm RSHIFT DEL     &sl 3 &kp CAPS
+                &mt TAB Q     &kp W    &kp E       &kp R &kp T                  &kp Y &kp U    &kp I     &kp O    &kp P
+                &mt LSHIFT A  &kp S    &kp D       &kp F &kp G                  &kp H &kp J    &kp K     &kp L    &mt APOS SEMI
+                &mt LALT Z  &mt RA(N6) X &mt RA(COMMA) C  &kp V &kp B           &kp N &kp M    &mt RA(GRAVE) &kp DOT  &kp ENTER
+                &sl 1    &sl 2    &mt LCTRL ESC  &mt LGUI MINUS &kp SPACE   &kp BSPC &sk RALT &mt RSHIFT DEL     &sl 3 &kp CAPS
             >;
         };
 
