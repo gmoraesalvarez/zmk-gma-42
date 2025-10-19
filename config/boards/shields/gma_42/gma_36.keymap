@@ -45,21 +45,21 @@
             display-name = "Default";
 
             bindings = <
-                &kp Q    &kp W    &kp E       &kp R &kp T         &kp Y &kp U    &kp I     &kp O    &kp P
-                &kp A    &kp S    &kp D       &kp F &kp G         &kp H &kp J    &kp K     &kp L    &kp APOS
-                &kp Z    &kp X    &kp C       &kp V &kp B         &kp N &kp M    &kp COMMA &kp DOT  &kp ENTER
-                &trans  &trans  &kp LALT  &mo 1 &kp SPACE      &kp BSPC &kp RALT  &mo 2 &trans &trans
+                &hm TAB Q     &kp W    &kp E       &kp R &kp T                  &kp Y &kp U    &kp I     &kp O    &kp P
+                &hm LSHIFT A  &kp S    &kp D       &kp F &kp G                  &kp H &kp J    &kp K     &kp L    &hm APOS SEMI
+                &hm LALT Z  &HM RA(N6) X &hm RA(COMMA) C  &kp V &kp B           &kp N &kp M    &hm RA(GRAVE) &kp DOT  &kp ENTER
+                &sl 1    &sl 2    &hm LCTRL ESC  &hm LGUI MINUS &kp SPACE   &kp BSPC &sk RALT &hm RSHIFT DEL     &sl 3 &kp CAPS
             >;
         };
 
         number_layer {
-            display-name = "Number";
+            display-name = "number";
 
             bindings =<
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &kp PG_UP          &kp 7  &kp 8  &kp 9  &trans  &trans
+                &trans  &trans  &trans  &trans  &kp PG_DN          &kp 4  &kp 5  &kp 6  &kp LBKT  &kp RBKT
+                &trans  &trans  &trans  &trans  &trans          &kp 1  &kp 2  &kp 3  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans  &kp 0  &trans  &trans  &trans
             >;
         };
 
@@ -74,8 +74,28 @@
             >;
         };
 
-        extra_layer {
-            display-name = "Extra";
+        extra_layer1 {
+            display-name = "Extra1";
+
+            bindings =<
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+        extra_layer2 {
+            display-name = "Extra2";
+
+            bindings =<
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+        extra_layer3 {
+            display-name = "Extra3";
 
             bindings =<
                 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
