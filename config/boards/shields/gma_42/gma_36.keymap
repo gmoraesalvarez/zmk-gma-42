@@ -35,6 +35,7 @@
                 COMBO(lf, &kp RIGHT, 17 18)
                 COMBO(rt, &kp DOWN, 16 17)
                 COMBO(number, &tog 1, 34 35)
+                COMBO(Function, &tog 2, 32 37)
      
         };
 
