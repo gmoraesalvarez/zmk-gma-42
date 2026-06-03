@@ -2,14 +2,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    left_encoder: encoder_left {
-                compatible = "alps,ec11";
-                a-gpios = <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-                b-gpios = <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-                steps = <80>;
-                status = "okay";
-            };
-
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -25,6 +17,14 @@
                     <&pro_micro 9 GPIO_ACTIVE_HIGH>;
 
     };
+
+    left_encoder: encoder_left {
+                compatible = "alps,ec11";
+                a-gpios = <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+                b-gpios = <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+                steps = <80>;
+                status = "okay";
+            };
 
     transform: matrix_transform {
         compatible = "zmk,matrix-transform";
