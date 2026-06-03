@@ -18,14 +18,6 @@
 
     };
 
-    left_encoder: encoder_left {
-                compatible = "alps,ec11";
-                a-gpios = <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-                b-gpios = <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-                steps = <80>;
-                status = "okay";
-            };
-
     transform: matrix_transform {
         compatible = "zmk,matrix-transform";
         rows = <4>;
@@ -66,6 +58,14 @@
             
             ;
     };
+
+    left_encoder: encoder_left {
+                compatible = "alps,ec11";
+                a-gpios = <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+                b-gpios = <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+                steps = <80>;
+                status = "okay";
+            };
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
