@@ -7,7 +7,7 @@
                 a-gpios = <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
                 b-gpios = <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
                 steps = <80>;
-                status = "disabled";
+                status = "okay";
             };
 
     kscan: kscan {
@@ -72,7 +72,5 @@
         sensors = <&left_encoder>;
         triggers-per-rotation = <20>;
     };
-    &left_encoder {
-        status = "okay";
-    };
+
 };
