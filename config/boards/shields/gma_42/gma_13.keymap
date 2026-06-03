@@ -28,13 +28,13 @@
         combos {
                 compatible = "zmk,combos";
                       
-                COMBO(up, &kp UP, 7 8)
-                COMBO(home, &kp HOME, 6 7)
-                COMBO(end, &kp END, 8 9)
-                COMBO(dw, &kp LEFT, 18 19)
-                COMBO(lf, &kp RIGHT, 20 21)
-                COMBO(rt, &kp DOWN, 19 20)
-                COMBO(number, &tog 1, 41 42)
+                COMBO(up, &kp UP, 3 4)
+                COMBO(home, &kp HOME, 2 3)
+                COMBO(end, &kp END, 4 5)
+                COMBO(dw, &kp LEFT, 7 8)
+                COMBO(lf, &kp RIGHT, 9 10)
+                COMBO(rt, &kp DOWN, 8 9)
+                COMBO(extra, &tog 1, 15 16)
      
         };
 
@@ -53,7 +53,7 @@
         };
 
         number_layer {
-            display-name = "Function";
+            display-name = "extra";
 
             bindings =<
                 &kp GRAVE &kp N1   &kp N2    &kp N3 &kp N4 &kp N5 &kp N6   &kp N7   &kp N8    &kp N9    &kp N0   &kp DEL
@@ -75,7 +75,7 @@
         };
 
         extra_layer {
-            display-name = "Function";
+            display-name = "system";
 
             bindings =<
                 &kp GRAVE &kp N1   &kp N2    &kp N3 &kp N4 &kp N5 &kp N6   &kp N7   &kp N8    &kp N9    &kp N0   &kp DEL
