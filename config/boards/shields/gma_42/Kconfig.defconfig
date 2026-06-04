@@ -1,6 +1,6 @@
-if SHIELD_GMA_36
+if SHIELD_GMA_13
 
 config ZMK_KEYBOARD_NAME
-     default "gma_36"
+     default "gma_13"
 
 endif
