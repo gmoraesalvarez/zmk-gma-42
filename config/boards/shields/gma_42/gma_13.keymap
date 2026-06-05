@@ -39,9 +39,6 @@
      
         };
 
-            sensor-bindings = <&inc_dec_kp UP DOWN>;
-
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -54,6 +51,8 @@
                 &kp N1      &kp N2    &kp N3    &kp KP_DOT
                 &tog 1    &kp N0
             >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
+
         };
 
         number_layer {
@@ -65,6 +64,8 @@
                 &trans      &trans    &trans    &trans
                 &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
+
         };
 
         function_layer {
@@ -76,6 +77,8 @@
                 &trans      &trans    &trans    &trans
                 &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
+
         };
 
         extra_layer1 {
@@ -87,6 +90,8 @@
                 &trans      &trans    &trans    &trans
                 &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
+
         };
         extra_layer2 {
             display-name = "Extra2";
@@ -97,6 +102,8 @@
                 &trans      &trans    &trans    &trans
                 &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
+
         };
         extra_layer3 {
             display-name = "Extra3";
@@ -107,6 +114,8 @@
                 &trans      &trans    &trans    &trans
                 &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
+
         };
     };
 };
