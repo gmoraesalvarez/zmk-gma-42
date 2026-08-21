@@ -1,6 +1,6 @@
-if SHIELD_GMA_13
+if SHIELD_GMA_TRADER
 
 config ZMK_KEYBOARD_NAME
-     default "gma_13"
+     default "gma_trader"
 
 endif
