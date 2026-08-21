@@ -28,14 +28,7 @@
 
         combos {
                 compatible = "zmk,combos";
-                      
-                COMBO(up, &kp UP, 1 2)
-                COMBO(home, &kp HOME, 0 1)
-                COMBO(end, &kp END, 2 3)
-                COMBO(dw, &kp LEFT, 4 5)
-                COMBO(lf, &kp RIGHT, 6 7)
-                COMBO(rt, &kp DOWN, 5 6)
-                COMBO(extra, &tog 1, 11 13)
+                COMBO(extra, &tog 1, 1 4)
      
         };
 
@@ -46,12 +39,10 @@
             display-name = "Default";
             
             bindings =<
-                &kp N7      &kp N8    &kp N9    &kp STAR
-                &kp N4      &kp N5    &kp N6    &kp KP_SLASH
-                &kp N1      &kp N2    &kp N3    &kp KP_DOT
-                &tog 1    &kp N0
+                &kp N7      &kp N8    &kp N9
+                &kp N4      &kp N5    &kp N6    &kp N3    &kp N6 
+                &kp N1      &kp N2              &kp N3    &kp KP_DOT    &kp N6
             >;
-            sensor-bindings = <&inc_dec_kp UP DOWN>;
 
         };
 
@@ -59,12 +50,10 @@
             display-name = "number";
 
             bindings =<
-                &trans      &trans    &trans    &trans
-                &trans      &trans    &trans    &trans
-                &trans      &trans    &trans    &trans
-                &trans  &trans
+                &trans      &trans    &trans
+                &trans      &trans    &trans    &trans    &trans
+                &trans      &trans              &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 
         };
 
@@ -72,12 +61,10 @@
             display-name = "Function";
 
             bindings =<
-                &trans      &kp UP   &trans    &trans
-                &kp RIGHT      &kp DOWN    &kp LEFT    &trans
-                &trans      &trans    &trans    &trans
-                &trans  &trans
+                &trans      &trans    &trans
+                &trans      &trans    &trans    &trans    &trans
+                &trans      &trans              &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 
         };
 
@@ -85,36 +72,30 @@
             display-name = "Extra1";
 
             bindings =<
-                &trans      &kp UP   &trans    &trans
-                &kp RIGHT      &kp DOWN    &kp LEFT    &trans
-                &trans      &trans    &trans    &trans
-                &trans  &trans
+                &trans      &trans    &trans
+                &trans      &trans    &trans    &trans    &trans
+                &trans      &trans              &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 
         };
         extra_layer2 {
             display-name = "Extra2";
 
             bindings =<
-                &trans      &kp UP   &trans    &trans
-                &kp RIGHT      &kp DOWN    &kp LEFT    &trans
-                &trans      &trans    &trans    &trans
-                &trans  &trans
+                &trans      &trans    &trans
+                &trans      &trans    &trans    &trans    &trans
+                &trans      &trans              &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
 
         };
         extra_layer3 {
             display-name = "Extra3";
 
             bindings =<
-                &trans      &kp UP   &trans    &trans
-                &kp RIGHT      &kp DOWN    &kp LEFT    &trans
-                &trans      &trans    &trans    &trans
-                &trans  &trans
+                &trans      &trans    &trans
+                &trans      &trans    &trans    &trans    &trans
+                &trans      &trans              &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_AL_NEXT_TASK C_AL_PREV_TASK>;
 
         };
     };
