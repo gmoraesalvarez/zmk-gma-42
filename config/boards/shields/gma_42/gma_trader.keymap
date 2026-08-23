@@ -28,7 +28,7 @@
 
         combos {
                 compatible = "zmk,combos";
-                COMBO(extra, &tog 1, 1 4)
+                COMBO(extra, &tog 1, 8 12)
      
         };
 
