@@ -3,12 +3,12 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-#define COMBO(NAME, BINDINGS, KEYPOS) \
+#define COMBO(NAME, BINDINGS, KEYPOS, LAYER) \
   combo_##NAME { \
     timeout-ms = <50>; \
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
-    layers = <0>; \
+    layers = <LAYER>; \
   };
 
 / {
@@ -28,7 +28,13 @@
 
         combos {
                 compatible = "zmk,combos";
-                COMBO(extra, &tog 1, 8 12)
+                COMBO(bt, &tog 1, 8 12);
+                COMBO(to0, &to 0, 0 3, 5);
+                COMBO(to2, &to 2, 0 3, 0);
+                COMBO(to3, &to 3, 0 3, 2);
+                COMBO(to4, &to 4, 0 3, 3);
+                COMBO(to5, &to 5, 0 3, 4);
+                
      
         };
 
