@@ -38,7 +38,6 @@
                 COMBO(bt8, &to 1, 8 12, 8)
                 COMBO(bt9, &to 1, 8 12, 9)
                 COMBO(bt10, &to 1, 8 12, 10)
-
                 COMBO(to2, &to 2, 0 3, 0)
                 COMBO(to3, &to 3, 0 3, 2)
                 COMBO(to4, &to 4, 0 3, 3)
@@ -70,9 +69,9 @@
             display-name = "bt";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -81,9 +80,9 @@
             display-name = "Function";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -92,9 +91,9 @@
             display-name = "Extra1";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -102,9 +101,9 @@
             display-name = "Extra2";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -112,9 +111,9 @@
             display-name = "Extra3";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -122,9 +121,9 @@
             display-name = "Extra4";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -142,9 +141,9 @@
             display-name = "Extra6";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -152,9 +151,9 @@
             display-name = "Extra7";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
@@ -162,9 +161,9 @@
             display-name = "Extra8";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
