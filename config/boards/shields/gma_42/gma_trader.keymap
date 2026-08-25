@@ -28,7 +28,11 @@
 
         combos {
                 compatible = "zmk,combos";
-                COMBO(bt, &tog 1, 8 12, 0 1 2 3 4 5)
+                COMBO(bt0, &to 1, 8 12, 0)
+                COMBO(bt2, &to 1, 8 12, 2)
+                COMBO(bt3, &to 1, 8 12, 3)
+                COMBO(bt4, &to 1, 8 12, 4)
+                COMBO(bt5, &to 1, 8 12, 5)
                 COMBO(to0, &to 0, 0 3, 5)
                 COMBO(to2, &to 2, 0 3, 0)
                 COMBO(to3, &to 3, 0 3, 2)
