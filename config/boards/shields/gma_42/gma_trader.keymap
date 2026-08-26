@@ -59,7 +59,7 @@
             
             bindings =<
                 &kp LC(LS(LA(L)))      &kp LC(LS(LA(U)))    &kp LC(LS(LA(I)))
-                &kp LC(LS(LA(O)))      &kp LC(LS(LA(J)))    &kp LC(LS(LA(DOT)))    &kp LC(LS(LA(E)))    &kp LC(LS(LA(COMMA ))
+                &kp LC(LS(LA(O)))      &kp LC(LS(LA(J)))    &kp LC(LS(LA(DOT)))    &kp LC(LS(LA(E)))    &kp LC(LS(LA(COMMA)))
                 &kp LC(LS(LA(N)))      &kp LC(LS(LA(H)))              &kp LC(LS(LA(K)))    &kp LC(LS(LA(M)))    &kp LC(LS(LA(Y)))
             >;
 
