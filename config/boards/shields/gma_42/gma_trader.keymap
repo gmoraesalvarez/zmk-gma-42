@@ -131,9 +131,9 @@
             display-name = "Extra5";
 
             bindings =<
-                &trans      &trans    &trans
-                &trans      &trans    &trans    &trans    &trans
-                &trans      &trans              &trans    &trans    &trans
+                &kp N0      &kp N0    &kp N0
+                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
+                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
             >;
 
         };
