@@ -58,9 +58,9 @@
             display-name = "Default";
             
             bindings =<
-                &kp N7      &kp N8    &kp N9
-                &kp N4      &kp N5    &kp N6    &kp N3    &kp N6 
-                &kp N1      &kp N2              &kp N3    &kp KP_DOT    &kp N6
+                &kp L      &kp U    &kp I
+                &kp O      &kp J    &kp DOT    &kp E    &kp COMMA 
+                &kp N      &kp H              &kp K    &kp M    &kp Y
             >;
 
         };
@@ -69,9 +69,9 @@
             display-name = "bt";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
+                &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2
                 &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &tog 1      &kp N0              &kp N0    &kp N0    &bt BT_CLR
             >;
 
         };
@@ -80,9 +80,9 @@
             display-name = "Function";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp F1      &kp F2    &kp F3
+                &kp F4      &kp F5    &kp F6    &kp F7    &kp F8
+                &kp F9      &kp F10              &kp F11    &kp F12    &kp F14
             >;
 
         };
@@ -91,9 +91,9 @@
             display-name = "Extra1";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp N1      &kp N2    &kp N3
+                &kp N4      &kp N5    &kp N6    &kp N7    &kp N8
+                &kp N9      &kp N0              &kp SEMI    &kp MINUS    &kp EQUAL
             >;
 
         };
@@ -101,9 +101,9 @@
             display-name = "Extra2";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp Q      &kp W    &kp F
+                &kp P      &kp G    &kp A    &kp R    &kp S
+                &kp T      &kp D              &kp Z    &kp X    &kp C
             >;
 
         };
@@ -111,9 +111,9 @@
             display-name = "Extra3";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp L      &kp U    &kp I
+                &kp O      &kp J    &kp DOT    &kp E    &kp COMMA 
+                &kp N      &kp H              &kp K    &kp M    &kp Y
             >;
 
         };
@@ -121,9 +121,9 @@
             display-name = "Extra4";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp N1      &kp N2    &kp N3
+                &kp N4      &kp N5    &kp N6    &kp N7    &kp N8
+                &kp N9      &kp N0              &kp SEMI    &kp MINUS    &kp EQUAL
             >;
 
         };
@@ -131,9 +131,9 @@
             display-name = "Extra5";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp Q      &kp W    &kp F
+                &kp P      &kp G    &kp A    &kp R    &kp S
+                &kp T      &kp D              &kp Z    &kp X    &kp C
             >;
 
         };
@@ -141,9 +141,9 @@
             display-name = "Extra6";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp L      &kp U    &kp I
+                &kp O      &kp J    &kp DOT    &kp E    &kp COMMA 
+                &kp N      &kp H              &kp K    &kp M    &kp Y
             >;
 
         };
@@ -151,9 +151,9 @@
             display-name = "Extra7";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp N1      &kp N2    &kp N3
+                &kp N4      &kp N5    &kp N6    &kp N7    &kp N8
+                &kp N9      &kp N0              &kp SEMI    &kp MINUS    &kp EQUAL
             >;
 
         };
@@ -161,9 +161,9 @@
             display-name = "Extra8";
 
             bindings =<
-                &kp N0      &kp N0    &kp N0
-                &kp N0      &kp N0    &kp N0    &kp N0    &kp N0
-                &kp N0      &kp N0              &kp N0    &kp N0    &kp N0
+                &kp Q      &kp W    &kp F
+                &kp P      &kp G    &kp A    &kp R    &kp S
+                &kp T      &kp D              &kp Z    &kp X    &kp C
             >;
 
         };
