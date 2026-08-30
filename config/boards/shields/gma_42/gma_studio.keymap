@@ -48,7 +48,7 @@
 
         };
 
-        number_layer {
+        bt_layer {
             display-name = "bt";
 
             bindings =<
