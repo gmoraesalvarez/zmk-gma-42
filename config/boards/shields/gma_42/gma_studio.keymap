@@ -63,7 +63,7 @@
                 &trans      &trans    &trans    &trans    &trans
                   
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
 
         };
 
@@ -87,7 +87,7 @@
                 &trans      &trans    &trans    &trans    &trans
                 &trans      &trans    &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp J L>;
+            sensor-bindings = <&inc_dec_kp MINUS EQUAL>;
 
         };
         extra_layer2 {
@@ -98,7 +98,7 @@
                 &trans      &trans    &trans    &trans    &trans
                 &trans      &trans    &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp LS(COMMA) LS(DOT)>;
+            sensor-bindings = <&inc_dec_kp J L>;
 
         };
         extra_layer3 {
@@ -120,7 +120,7 @@
                 &trans      &trans    &trans    &trans    &trans
                 &trans      &trans    &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 
         };
       extra_layer5 {
