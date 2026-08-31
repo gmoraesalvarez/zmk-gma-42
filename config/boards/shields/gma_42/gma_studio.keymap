@@ -29,13 +29,13 @@
         combos {
                 compatible = "zmk,combos";
                       
-                COMBO(bt, &to 1, 10 14, 0)
-                COMBO(bt, &to 1, 10 14, 2)
-                COMBO(bt, &to 1, 10 14, 3)
-                COMBO(bt, &to 1, 10 14, 4)
-                COMBO(bt, &to 1, 10 14, 5)
-                COMBO(bt, &to 1, 10 14, 6)
-                COMBO(bt, &to 1, 10 14, 7)
+                COMBO(bt0, &to 1, 10 14, 0)
+                COMBO(bt2, &to 1, 10 14, 2)
+                COMBO(bt3, &to 1, 10 14, 3)
+                COMBO(bt4, &to 1, 10 14, 4)
+                COMBO(bt5, &to 1, 10 14, 5)
+                COMBO(bt6, &to 1, 10 14, 6)
+                COMBO(bt7, &to 1, 10 14, 7)
      
         };
 
