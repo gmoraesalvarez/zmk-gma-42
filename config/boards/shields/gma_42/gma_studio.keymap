@@ -98,7 +98,7 @@
                 &trans      &trans    &trans    &trans    &trans
                 &trans      &trans    &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp LS(COMMA) LS(DOT)>;
 
         };
         extra_layer3 {
@@ -109,7 +109,7 @@
                 &trans      &trans    &trans    &trans    &trans
                 &trans      &trans    &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
 
         };
         extra_layer4 {
