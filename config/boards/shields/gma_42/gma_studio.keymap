@@ -114,7 +114,7 @@
                 &trans      &trans    &trans    &trans    &trans
                 &trans      &trans    &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_AL_PREV_TASK C_AL_NEXT_TASK>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 
         };
       extra_layer5 {
@@ -125,7 +125,7 @@
                 &trans      &trans    &trans    &trans    &trans
                 &trans      &trans    &trans    &trans    &trans
             >;
-            sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp LA(TAB) LA(LS(TAB))>;
 
         };
     };
