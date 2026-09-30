@@ -79,8 +79,8 @@
             display-name = "Extra";
 
             bindings =<
-                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans    &msc SCRL_UP &trans &mmv MOVE_UP &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans    &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &trans
                 &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
                                    &trans &trans  &trans    &trans &trans  &trans
             >;
