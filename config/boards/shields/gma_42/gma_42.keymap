@@ -54,7 +54,7 @@
         };
 
         number_layer {
-            display-name = "Function";
+            display-name = "Number";
 
             bindings =<
                 &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
@@ -76,7 +76,28 @@
         };
 
         extra_layer {
-            display-name = "Function";
+            display-name = "Extra";
+
+            bindings =<
+                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                                   &trans &trans  &trans    &trans &trans  &trans
+            >;
+        };
+
+      extra1_layer {
+            display-name = "Extra1";
+
+            bindings =<
+                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
+                                   &trans &trans  &trans    &trans &trans  &trans
+            >;
+        };
+      extra2_layer {
+            display-name = "Extra2";
 
             bindings =<
                 &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
